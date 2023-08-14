@@ -317,3 +317,40 @@ DESKTOP SIZE
         height: 50rem;
     }
 }
+
+
+
+
+/*
+contents1
+================================================ */
+
+/*
+HERO
+================================================ */
+#contents1 .hero::after {
+    content: '';
+    width: 50%;
+    height: 100vh;
+    background: url('../images/bg-hero.jpg') no-repeat center / cover;
+    position: absolute;
+    inset: 0;
+}
+
+/*
+CONCEPT
+================================================ */
+#contents1 .concept {
+    margin: 8rem 0;
+    background-image: linear-gradient(
+        to right,
+        transparent 0%,
+        transparent 20%,
+        var(--light-grey) 20%,
+        var(--light-grey) 100%
+    );
+}
+#contents1 .concept p {
+    text-align: left;
+    margin-bottom: 2rem;
+}
