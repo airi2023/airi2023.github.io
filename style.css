@@ -372,7 +372,7 @@ HERO
     content: '';
     width: 50%;
     height: 100vh;
-    background: url('../images/bg-hero1.jpg') no-repeat center / cover;
+    background: url('../images/bg-hero2.jpg') no-repeat center / cover;
     position: absolute;
     inset: 0;
 }
